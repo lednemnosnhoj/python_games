@@ -3,6 +3,9 @@ def response(code,guess):
     for i,peg in enumerate(guess):
         if code[i]==peg:
             response.append(2)
+                
+            
+            
     return response
         
 def get_a_guess():
